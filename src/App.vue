@@ -39,10 +39,6 @@
 
     function handleSelect(event){
       store.selectValue= event.target.value;
-      switch(store.selectValue){
-        case 'multiplicacao': store.multiplicacao()
-      }
-      console.log(store.selectValue)
     }
 
     watch(
@@ -124,7 +120,7 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    
+
   }
 
 </style>
